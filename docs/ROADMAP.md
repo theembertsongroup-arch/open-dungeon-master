@@ -356,6 +356,10 @@ version gate. See `docs/vtt-parity-implementation-plan.md` sections 11 to
 
 ## Next
 
+- [Parallel scenes](parallel-scenes-roadmap.md): first make AI jobs, mutating
+  tools and event delivery recoverable, then add server-projected story
+  threads, per-thread DM queues, shared-world conflict handling and reunion.
+  Existing room codes and mobile invite links remain campaign-scoped.
 - Ruleset validation (`src/lib/rulesets/validate.ts` from the workshop plan):
   checking a monster, map or NPC draft against the selected ruleset is
   deferred; today the ruleset informs the tools but is not enforced at
